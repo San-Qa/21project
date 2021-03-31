@@ -33,4 +33,16 @@ public class Runner {
 		double result = num1 / num2;
 		return result;
 	}
+	
+	public static int method1 (int phy, int che, int bio) {
+		int total = phy + che + bio;
+		return total;
+	}
+	
+	public static double method2(double phy, double che, double bio) {
+		 double total = phy + che + bio;
+		 double percent = (total * 100) / 450; 
+		 return percent;
+	}
+	
 }
